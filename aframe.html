@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Jeremiasz J. - strona internetowa na zaliczenie przedmiotu RRwTS">
+	<title>Jeremiasz J. - RRwTS</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://aframe.io/releases/1.1.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-environment-component/dist/aframe-environment-component.min.js"></script>
+</head>
+<body>
+
+<header style="text-align: center">
+<img src=panoramka.jpg alt=Obrazek sie niestety nie załadował width=1000 height=323><br>
+<b><p style="text-align: center; font-size: xx-large; font-family: Arial">
+Witaj na mojej stronie internetowej!
+</p></b>
+</header>
+
+
+
+<nav style="width: 310px; float: left; overflow: hidden">
+<b><menu style="text-align: center; font-size: large">
+MENU NAWIGACYJNE
+</menu></b><br>
+
+<li><a href=index.html>HOME</a></li><br>
+<li><a href="...">O MNIE</a></li><br>
+<li><a href="...">MAŁA GALERIA</a></li><br>
+<li><a href="...">PROJEKT AFRAME</a></li><br>
+<li><a href="...">OPIS ZADAŃ ZREALIZOWANYCH<br>NA STRONIE/W PROJEKCIE</a></li><br>
+<li><a href=contact.html>CONTACT</a></li><br>
+
+ </nav>
+ 
+ <article style="margin-left: 320px; text-align: center; margin-top: 75px">
+ <a-scene>
+  <a-box color="blue"   position="0 6 -5" rotation="45 45 45" scale="3 3 3" animation="property: object3D.rotation.y; to: 72000; dir: normal; dur: 1000000  loop: true"></a-box>
+  <a-sphere color="red"  position="-8 6 -5"  scale="0.75 0.75 0.75"  animation="property: object3D.position.y; to: 2; dir: alternate; dur: 1600; loop: true"></a-sphere>
+  <a-sphere color="red"  position="-8 6 -13" scale="0.75 0.75 0.75"  animation="property: object3D.position.y; to: 11; dir: alternate; dur: 1800; loop: true"></a-sphere>
+  <a-sphere color="red"  position="0 6 -13" scale="0.75 0.75 0.75"  animation="property: object3D.position.y; to: 3; dir: alternate; dur: 2200; loop: true"></a-sphere>
+  <a-sphere color="red"  position="0 6 3" scale="0.75 0.75 0.75"  animation="property: object3D.position.y; to: 8; dir: alternate; dur: 1500; loop: true"></a-sphere>
+  <a-sphere color="red"  position="-8 6 3" scale="0.75 0.75 0.75"  animation="property: object3D.position.y; to: 4; dir: alternate; dur: 2600; loop: true"></a-sphere>
+  <a-sphere color="red"  position="8 6 -13" scale="0.75 0.75 0.75"  animation="property: object3D.position.y; to: 5; dir: alternate; dur: 1150; loop: true"></a-sphere>
+  <a-sphere color="red"  position="8 6 -5" scale="0.75 0.75 0.75"  animation="property: object3D.position.y; to: 5.5; dir: alternate; dur: 2000; loop: true"></a-sphere>
+  <a-sphere color="red"  position="8 6 3" scale="0.75 0.75 0.75"  animation="property: object3D.position.y; to: 7; dir: alternate; dur: 500; loop: true"></a-sphere>
+  <a-cylinder color=#ffaa00  position="-8 1 3" rotation="90 0 0" scale="0.75 1.25 0.75"  animation="property: object3D.position.x; to: 8; dir: alternate; dur: 3500; loop: true"></a-cylinder>
+  <a-cylinder color=#00e6ac  position="8 1 -5" rotation="90 0 0" scale="1 4 1"  animation="property: object3D.position.x; to: -8; dir: alternate; dur: 2250; loop: true"></a-cylinder>
+  <a-cylinder color=#5900b3  position="-8 1 -13" rotation="90 0 0" scale="1 2 1"  animation="property: object3D.position.x; to: 8; dir: alternate; dur: 2750; loop: true"></a-cylinder>
+
+
+
+  <a-entity
+  text="value: Delikatny VR - ster. WASD i myszka; color: #26004d"
+  position="3 3 -7"
+  scale="10 10 10"></a-entity>
+      <a-entity environment="preset: forest; dressingAmount: 500"></a-entity>
+	  
+     
+</a-scene>
+</article>
+
+<footer style="text-align: center; clear: both; font-size: x-small">
+Made by Jeremiasz Jóźwiak, 01.2021, Rozszerzona Rzeczywistość w Technikach Sterowania, 
+AiR, II st., I sem., Poznań University of Technology &copy; &reg;
+</footer>
+
+
+</body>
+</html>

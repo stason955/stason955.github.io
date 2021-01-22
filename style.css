@@ -1,0 +1,33 @@
+
+
+article {
+	
+}
+
+menu {
+	border-bottom-style: solid;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-left-style: solid;
+
+}
+a{
+	color:black;
+	font-family: Courier New;
+	font-size: medium;
+	
+}
+a:hover{
+	color: #4169E1
+}
+li{
+	text-align: center;
+	border-bottom-style: outset;
+	border-top-style: outset;
+	border-right-style: outset;
+	border-left-style: outset;
+}
+
+body {
+	background-color: 	#F8F8FF
+}
